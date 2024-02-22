@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# Except
+!.gitignore
+!.dockerignore
+
+!*.go
+!go.sum
+!go.mod
+
+!README.md
+!Makefile
+
+# even in subdirectories
+!*/
