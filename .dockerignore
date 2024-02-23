@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Except
+!*.go
+!go.sum
+!go.mod
+!Makefile
+!Dockerfile
+
+# even in subdirectories
+!*/
